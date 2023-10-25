@@ -1,0 +1,174 @@
+.row.text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.row.carousel {
+  padding: 1rem 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+body {
+  background: url(../images/pexels-cottonbro-4722571.jpg) no-repeat center
+    center fixed;
+  background-size: cover;
+  color: white;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.form-control.me-2,
+.btn.btn-outline-success {
+  margin: 1rem;
+  background-color: #1c0e11;
+  border: 1px solid #881337;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.col.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.registerbtn {
+  background-color: #15803d;
+  border: none;
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  color: white;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.loginbtn {
+  background-color: #3b82f6;
+  border: none;
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  margin: 1rem;
+}
+
+.buttonsSocial {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 1rem 0.3rem 4rem 0.3rem;
+  gap: 1rem;
+}
+
+.o-mne-nadpis {
+  display: flex;
+  margin: 0 0 0 3rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.novinka {
+  border: 0.1rem solid white;
+  margin: 1rem 1rem 1rem;
+  padding: 1.5rem;
+  background-color: #333333;
+}
+
+.btn.btn-primary {
+  border: none;
+  font-weight: bold;
+}
+
+.novinka p {
+  border: 0.2rem solid white;
+  padding: 1rem;
+  background-color: #1c0e11;
+}
+
+.novinka .display-6 {
+  margin: 2rem 0 0 0;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  box-shadow: inset 0 0 0 2px white;
+  background-color: #22c55e;
+}
+
+.nav-item {
+  border-radius: 1rem;
+  background-color: gray;
+  margin: 0.5rem;
+}
+
+.nav-item .prihlasenie {
+  background-color: #3b82f6;
+  border-radius: 1rem;
+}
+
+.nav-item .registracia {
+  background-color: #15803d;
+  border-radius: 1rem;
+}
+
+.btn.btn-outline-success:hover,
+.btn.btn-outline-success:focus,
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #881337;
+}
+
+.link {
+  font-weight: bold;
+  color: white;
+}
+
+.link:hover,
+.link:focus,
+.novinkyNadpisy:hover,
+.novinkyNadpisy:focus {
+  color: #15803d;
+}
+
+.carousel-inner {
+  border: 0.1rem solid white;
+}
+
+.novinkyNadpisy {
+  text-decoration: none;
+  color: white;
+}
+
+:root {
+  font-size: 1.3rem;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.row.personalInfo {
+  margin: 2rem;
+}
+
+.sign-in {
+  background-color: #3b82f6;
+}
+
+p {
+  margin: 1rem 0 1rem 0;
+}
+
+div .img {
+  border: 1rem solid white;
+}
+
+h3 {
+  color: white;
+}
